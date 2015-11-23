@@ -1,4 +1,4 @@
-<html><head><title>KAUSHIK ISKA'S READING LIST</title><meta charset="UTF-8"><link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic|Roboto:400,700,700italic,400italic"><style>/*
+<html><head><title>Cryptography Engineering — Introduction to Cryptography</title><meta charset="UTF-8"><link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic|Roboto:400,700,700italic,400italic" type="text/css"><style>/*
  * Copyright 2014 Quip
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may
@@ -254,8 +254,36 @@ div[data-section-style="11"] img {
     height: auto;
     margin: auto;
 }
-</style></head><body><h2 id='YAGACATalB3'>KAUSHIK ISKA'S READING LIST</h2>
+</style></head><body><h1 id='SPRACAWW9l6'>Cryptography Engineering — Introduction to Cryptography</h1>
 
-<h3 id='YAGACAqZ7jg'>November 22, 2015 <control data-remapped="true" id="YAGACA1TEp7"><a href="posts/Cryptography%20Engineering%20—%20Introduction%20to%20Cryptography.html">Cryptography Engineering — Introduction to Cryptography</a></control></h3>
+This chapter aims to give us the background necessary to understand the rest of the book.<br/>
+
+<br/>
+
+<b>Encryption</b> —  <u>“Encryption is the original goal of cryptography”</u>. Interesting. I am not sure what other uses for cryptography are. (Maybe authentication?). They start by introducing Alice, Bob and Eve to us. Eve is the eavesdropper, Alice and bob try to communicate without Eve finding out.<br/>
+
+<h3 id='SPRACAp8vxO'><u>“An attacker shouldn't be able to learn any information about m, except possibly it's length and the time it was sent”</u></h3>
+
+We skip key exchange for now and assume that Alice and Bob have ways to exchange keys, i am guessing this is an infrequent event. Alice sends Bob the cipher text after encrypting message <i><b>m</b></i> with the encryption key <b><i>K_e</i></b>.<br/>
+
+<br/>
+
+<b>Kerckhoffs' Principle</b> — Kerckhoffs<b>,</b> a french dude, wrote two journal articles on <i>La Cryptographie Militaire,</i> in which he stated six design principles for military ciphers. The summary of them being:<br/>
+
+<h3 id='SPRACAnUE14'><u>“the security of an encryption scheme should depend only on the secrecy of the key, and not on the secrecy of the algorithm.”</u></h3>
+
+<div data-section-style='11' style='max-width:100%'><img src='https://quip.com/blob/SPRAAA4ja7Y/KfqIRwbKifkSnqAXxD6Tfw?a=5aTciPFnSCvbX2pDMawiY0Pr32bATxchusEfX5oadMEa' id='SPRACAT5uzx' alt='' width='800' height='163'></img></div><b>Authentication</b> — This is different from encryption. How does Bob know that the message he got was from Alice, this is totally possible if Eve has the ability to manipulate the channel. We now introduce a new key <b><i>K_a</i></b>, which is different from the encryption key. We introduce a new term, <b>message authentication code</b> or <b>MAC</b>.<br/>
+
+<div data-section-style='6'><ul id='SPRACAcvGLC'><li id='SPRACA0KWHb' class='' value='1'>Alice computes a = hash(m, K_a), and sends both m and a
+
+<br/></li><li id='SPRACAxzhT2' class=''>Now Bob authenticates by computing a himself.
+
+<br/></li></ul></div><b><u>“Pure authentication is only a partial solution”</u></b>. Eve can record some messages and can replay them on the channel. Eve can also delete messages. Naughty Eve. Well, message numbering can solve this problem. This still leaves the possibility of deleting the messages and delaying them but thats as far as she can go.<br/>
+
+<br/>
+
+<b>Public-Key Encryption</b> — How do we exchange keys. Alice and Bob meet in person, they exchange their key. What is 20 people meet and decide to exchange keys, there'd be 200 pairs of keys.<br/>
+
+<br/>
 
 </body></html>
