@@ -1,13 +1,26 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Kaushik's space</title>
+    <title>Kaushik Iska's Blog</title>
+    <meta name="author" content="Kaushik Iska">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <div class="wrapper">
-      {{ content }}
+    <div class="wrapper container">
+      <div class="row">
+        <div class="one column">&nbsp;</div>
+        <div class="ten columns">
+        {{ content }}
+        </div>
+        <div class="one column">&nbsp;</div>
+      </div>
     </div>
   </body>
 </html>
