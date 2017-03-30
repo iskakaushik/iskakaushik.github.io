@@ -1,4 +1,4 @@
-## How to Break Apps
+# How to Break Apps
 
 Starting March 20th 2017, I started a rotation (3 month team switch) to the Application Security Team at [Palantir](https://www.palantir.com/). I wish to capture my learnings, primarily for my reference. Hopefully, this will be useful for someone someday. Most of these learning would not have been possible without the team.  
 

@@ -13,6 +13,8 @@ $color-anchor-hover: #f00;
 $font-arnhem: ArnhemPro, Georgia, 'Times New Roman', Times, serif;
 $font-space: 'Space Mono', monospace;
 
+$base-font-size: 1.7rem;
+$heading-scale: 0.3;
 
 @font-face {
   font-family: ArnhemPro;
@@ -27,12 +29,14 @@ body {
   background-color: $color-white;
   color: $color-text;
   font-family: $font-arnhem;
-  font-size: 1.6rem;
+  font-size: $base-font-size;
 }
 
 @for $i from 1 through 6 {
   h#{$i} {
     font-family: $font-space;
+    font-size: $base-font-size + $heading-scale * (6 - $i);
+    font-weight: 600;
   }
 }
 
