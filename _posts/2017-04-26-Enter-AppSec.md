@@ -1,9 +1,14 @@
 ---
 title: Enter AppSec
 summary: Start of my rotation with application security team or How easy it is to screw up software security.
+thumbnail: /assets/img/enter-appsec.jpeg
 ---
 
+{% include post-frontmatter.html %}
+
 # How to Break Apps
+
+<dt-byline class="l-page"></dt-byline>
 
 Starting March 20th 2017, I started a rotation (3 month team switch) to the Application Security Team at [Palantir](https://www.palantir.com/). I wish to capture my learnings, primarily for my reference. Hopefully, this will be useful for someone someday. Most of these learning would not have been possible without the team.  
 

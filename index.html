@@ -10,7 +10,9 @@ layout: default
     <div class="metadata">
       <div>{{ post.date | date: "%B. %e, %Y" }}</div>
     </div>
-    <div class="thumbnail"><img src="http://www.eutrind.in/wp-content/uploads/2015/11/risk-management_application-security-960x450_c.jpg"></div>
+    <div class="thumbnail">
+      <img src="{{ post.thumbnail }}">
+    </div>
     <div class="description">
       <h2>{{ post.title }}</h2>
       <p>{{ post.summary }}</p>

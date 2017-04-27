@@ -1,0 +1,60 @@
+---
+title: Male Bodybuilding CNN
+summary: How to build a bodybuilding convnet.
+layout: default
+thumbnail: /assets/img/male-cnn.jpeg
+---
+
+{% include post-frontmatter.html %}
+
+<dt-article class="centered">
+  <h1>Male Bodybuilding CNN</h1>
+  <h2>Part - 1</h2>
+  <dt-byline class="l-page"></dt-byline>
+
+  <p>It is quite common to see bodybuilding models. But how often does one come
+  across a bodybuilding deep learning model? This is an attempt to build just
+  that. A classifier that can detect if an image is of a "shirtless" male
+  bodybuilder.</p>
+
+  <p>Getting lot of training data is hard.
+  <a href="https://keras.io">Keras</a><dt-cite key="kerasFw"></dt-cite>
+  recognized that and even has a tutorial<dt-cite key="kerasImgClass"></dt-cite>
+  that walks you through how you can be clever about training a relatively awesome
+  model with just a few hundred images. For the images themselves I used
+  <a href="https://instagram.com">insta #bodybuilding</a>. Thanks, world!</p>
+
+  <dt-byline class="l-page"></dt-byline>
+
+  <h2>Note</h2>
+    <p>
+    1.      Since we will be working with a limited set of images, we should try and
+            make our model as simple as possible. The way I think of it -- if a model is
+            complex, if acquires a lot of information about your training set, and can be
+            prone to overfitting.
+    </p>
+    <p>
+    2.      Keras tutorial talks about ways to modulate the entropy or the amount of
+            memory the model has about our training data. Some of these are L1/L2
+            regularization, or Dropout (where we do not allow a layer to see too many images
+            of the same kind?). I have not studied them yet, but I get a sense for the high
+            level idea though.
+    </p>
+</dt-article>
+
+<dt-appendix class="centered">
+</dt-appendix>
+
+<script type="text/bibliography">
+  @article{kerasImgClass,
+    title={Building powerful image classification models using very little data},
+    author={Chollet, Francois},
+    year={2016},
+    url={https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html}
+  }
+  @article{kerasFw,
+    title={Keras: Deep Learning library for Theano and TensorFlow},
+    author={Chollet, Francois},
+    url={https://keras.io}
+  }
+</script>
