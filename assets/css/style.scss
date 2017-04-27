@@ -1,56 +1,15 @@
 ---
 ---
 
-@import 'https://fonts.googleapis.com/css?family=Space+Mono';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css';
-
-$color-white: #fff;
-$color-text: #222;
-$color-anchor: #00f;
-$color-anchor-hover: #f00;
-
-$font-arnhem: ArnhemPro, Georgia, 'Times New Roman', Times, serif;
-$font-space: 'Space Mono', monospace;
-
-$base-font-size: 1.7rem;
-$heading-scale: 0.3;
-
-@font-face {
-  font-family: ArnhemPro;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 400;
-  src: 'https://dl.dropboxusercontent.com/u/9028137/fonts/ArnhemPro-Normal.woff2' format('woff2');
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
 }
 
-
-body {
-  background-color: $color-white;
-  color: $color-text;
-  font-family: $font-arnhem;
-  font-size: $base-font-size;
-}
-
-@for $i from 1 through 6 {
-  h#{$i} {
-    font-family: $font-space;
-    font-size: $base-font-size + $heading-scale * (6 - $i);
-    font-weight: 600;
-  }
-}
-
-a {
-  border-bottom: 1px solid;
-  color: $color-anchor;
-  text-decoration: none;
-  transition: color .25s ease-in-out;
-
-  &:hover {
-    color: $color-anchor-hover;
-  }
-}
-
-.container {
-  max-width: 575px;
+.fill img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }

@@ -8,15 +8,13 @@
     <title>Kaushik Iska's Blog</title>
     <meta name="author" content="Kaushik Iska">
 
+    <script src="{{ '/assets/js/distill-template.js' }}"></script>
   </head>
   <body>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' }}">
-    <div class="wrapper container">
-      <div class="row">
-        <div class="twelve columns">
-        {{ content }}
-        </div>
-      </div>
-    </div>
+    {% include header.html %}
+    <dt-article>
+      {{ content }}
+    </dt-article>
   </body>
 </html>
