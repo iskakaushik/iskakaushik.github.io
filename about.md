@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Kaushik Iska. Here are a few things about me.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+* I work as a Software Engineer at [Google](https://google.com). I work on [Flutter](https://flutter.dev) and [Fuchsia](https://fuchsia.dev).
+* I was fortunate enough to be advised by [Dr. Kishore Kothapalli](https://www.iiit.ac.in/people/faculty/kkishore/) during my Bachelors in Computer Science ([Honors in Computational Geometry](https://oldwww.iiit.ac.in/academics/curriculum/ug_honors)) from IIIT Hyderabad.
+* Some of my prior posts are over at [Medium](https://medium.com/iskakaushik), but I've moved from there.
+* I enjoy reading various genres. If you like, you can follow me on [goodreads](https://www.goodreads.com/iskakaushik), or <a href="mailto:iska.kaushik@gmail.com?subject=Book Recommendation for Kaushik">recommend a book to me</a>.

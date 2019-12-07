@@ -1,0 +1,12 @@
+{
+  "name": "animations",
+  "version": "1.0.0",
+  "description": "Animations subrepo",
+  "main": "index.js",
+  "author": "Kaushik Iska",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "three": "^0.111.0"
+  }
+}
