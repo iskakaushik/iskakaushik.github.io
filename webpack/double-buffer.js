@@ -176,6 +176,7 @@ class FrontAndBackBuffer {
     const rotateT = this._setupRotation()
     rotateT.onComplete(() => {
       this._swapBuffers()
+      this._writeText("---")
       this._setupAnimations()
     })
     const scanRotateFill = sclT.chain(rotateT)
@@ -226,18 +227,17 @@ class FrontAndBackBuffer {
     const targetRotY = this.rotation.angle + Math.PI;
     const rotateTween = new TWEEN.Tween(this.rotation);
     rotateTween.onStart(() => {
-      this._writeText("VBLANK")
+      this._writeText("VBLANK. The buffers will be swapped now.")
     })
     // delay for VBLANK!!
-    rotateTween.delay(2000);
+    rotateTween.delay(200);
     rotateTween.to({ angle: targetRotY }, 2000)
     return rotateTween;
   }
 
   _writeText(text) {
     const el = document.getElementById(DBL_INFO_PANE)
-    console.log(el)
-    el.innerHTML = text
+    el.innerText = text
   }
 
   update() {
