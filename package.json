@@ -1,0 +1,32 @@
+{
+  "name": "iskakaushik.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskakaushik/iskakaushik.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iskakaushik/iskakaushik.github.io/issues"
+  },
+  "homepage": "https://github.com/iskakaushik/iskakaushik.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "chroma-js": "^2.1.0",
+    "three": "^0.111.0",
+    "tween.js": "^16.6.0",
+    "tweenjs": "^1.0.2"
+  }
+}
