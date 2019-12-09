@@ -5,7 +5,7 @@ module.exports = {
   watch: true,
   entry: {
     double_buffer: path.join(__dirname, "webpack", "double_buffer"),
-
+    scanline_racer: path.join(__dirname, "webpack", "scl_racer"),
   },
   output: {
     filename: "[name]_bundle.js",

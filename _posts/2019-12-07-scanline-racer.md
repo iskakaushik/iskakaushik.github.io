@@ -57,16 +57,17 @@ Based on some reading this technique doesn't seem to require us to render things
 
 This can shave-off a few millis from each scan-line pass, but double buffering existed for a reason. It is much easier to reason about a system which lets you read the whole buffer during the frame interval, that one where you have to precisely calculate the window where the edits are permitted. This is a really cool technique nonetheless.
 
-<center>
+<!-- <center>
   <canvas id="scl_racer_canvas"  width="500" height="500">
   </canvas>
-</center>
+</center> -->
 
 <script src="/assets/js/double_buffer_bundle.js"></script>
+<!-- <script src="/assets/js/scanline_racer_bundle.js"></script> -->
 
 <script>
   window.RenderDblBuffer();
-  window.RenderSclRacer();
+  // window.RenderSclRacer();
 </script>
 
 
