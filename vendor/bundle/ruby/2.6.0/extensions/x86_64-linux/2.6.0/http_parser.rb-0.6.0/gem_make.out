@@ -1,5 +1,5 @@
 current directory: /home/travis/build/iskakaushik/iskakaushik.github.io/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/home/travis/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20191209-6375-tf4xsq.rb extconf.rb
+/home/travis/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20191209-6231-ut84rs.rb extconf.rb
 creating Makefile
 
 current directory: /home/travis/build/iskakaushik/iskakaushik.github.io/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
@@ -50,4 +50,4 @@ linking shared-object ruby_http_parser.so
 
 current directory: /home/travis/build/iskakaushik/iskakaushik.github.io/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -m 0755 ruby_http_parser.so ./.gem.20191209-6375-1c9p54a
+/usr/bin/install -m 0755 ruby_http_parser.so ./.gem.20191209-6231-84ybcr
