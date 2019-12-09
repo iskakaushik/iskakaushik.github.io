@@ -5,7 +5,7 @@ date:   2019-12-07 07:56:01 -0800
 categories: graphics
 ---
 
-I was recently talking to one of the engineers who worked on [Daydream](https://en.wikipedia.org/wiki/Google_Daydream). I realized how little I knew about the challenges in making a VR platform. One thing that struck me as particularly interesting was a rendering technique called "scanline racing". As someone who is currently working on Graphics, I found it to be fascinating. (heroku)
+I was recently talking to one of the engineers who worked on [Daydream](https://en.wikipedia.org/wiki/Google_Daydream). I realized how little I knew about the challenges in making a VR platform. One thing that struck me as particularly interesting was a rendering technique called "scanline racing". As someone who is currently working on Graphics, I found it to be fascinating.
 
 Problem
 -------
