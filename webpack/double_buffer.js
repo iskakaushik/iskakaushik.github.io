@@ -309,7 +309,8 @@ class SceneManager {
   }
 
 }
-function Render() {
+
+function RenderDblBuffer() {
   const canvasId = "double_buffer_canvas";
 
   const sceneManager = new SceneManager(canvasId);
@@ -324,4 +325,4 @@ function Render() {
   render();
 }
 
-window.RenderDblBuffer = Render;
+window.RenderDblBuffer = RenderDblBuffer;
