@@ -46,12 +46,6 @@ The effect of increased latency is due to vsync, which causes the front and back
   <p id="double_buffer_info">&nbsp;</p>
 </center>
 
-<script src="/assets/js/main-bundle.js"></script>
-
-<script>
-  window.RenderDblBuffer();
-</script>
-
 To remove this particular latency single buffering can be used. There is no back buffer, we always render to the front buffer. Once this is in-place we will no longer incur the latency due to the synchronization.
 
 Scanline Racing
@@ -63,9 +57,18 @@ Based on some reading this technique doesn't seem to require us to render things
 
 This can shave-off a few millis from each scan-line pass, but double buffering existed for a reason. It is much easier to reason about a system which lets you read the whole buffer during the frame interval, that one where you have to precisely calculate the window where the edits are permitted. This is a really cool technique nonetheless.
 
-```
-TODO: Finish the animation for this.
-```
+<center>
+  <canvas id="scl_racer_canvas"  width="500" height="500">
+  </canvas>
+</center>
+
+<script src="/assets/js/double_buffer_bundle.js"></script>
+
+<script>
+  window.RenderDblBuffer();
+  window.RenderSclRacer();
+</script>
+
 
 ### References:
 

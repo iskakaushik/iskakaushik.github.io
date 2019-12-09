@@ -309,7 +309,8 @@ class SceneManager {
   }
 
 }
-function Render() {
+
+function RenderDblBuffer() {
   const canvasId = "double_buffer_canvas";
 
   const sceneManager = new SceneManager(canvasId);
@@ -324,4 +325,20 @@ function Render() {
   render();
 }
 
-window.RenderDblBuffer = Render;
+function RenderSclRacer() {
+  const canvasId = "scl_racer_canvas";
+
+  const sceneManager = new SceneManager(canvasId);
+  sceneManager.init();
+
+  function render() {
+    requestAnimationFrame(render);
+    TWEEN.update();
+    sceneManager.update();
+  }
+
+  render();
+}
+
+window.RenderDblBuffer = RenderDblBuffer;
+window.RenderSclRacer = RenderSclRacer;

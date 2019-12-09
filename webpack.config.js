@@ -3,9 +3,12 @@ const path = require("path");
 module.exports = {
   mode: "production",
   watch: true,
-  entry: path.join(__dirname, "webpack", "double-buffer"),
+  entry: {
+    double_buffer: path.join(__dirname, "webpack", "double_buffer"),
+
+  },
   output: {
-    filename: "[name]-bundle.js",
+    filename: "[name]_bundle.js",
     path: path.resolve(__dirname, "assets/js"),
   },
   module: {
