@@ -2,7 +2,7 @@
 layout: post
 title:  "Scanline Racer"
 date:   2019-12-07 07:56:01 -0800
-image: iska.is/assets/img/double_buffer.png
+image: https://iska.is/assets/img/double_buffer.png
 categories: graphics
 ---
 
