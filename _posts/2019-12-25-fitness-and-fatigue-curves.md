@@ -43,15 +43,15 @@ Banister Impulse Response model
 
 Modeling individual response to stress has been studied by [Eric Banister in 1976](https://web.archive.org/web/20191226023243/https://www.math.fsu.edu/~dgalvis/journalclub/papers/11_28_2016.pdf). The linked paper documents how to measure impulse response in swimmers but was later modified to measure the same in runners and cyclists.
 
-To adapt the model to any stressor (running/swimming/cycling or any exercise), he proposed heart rate based metric called TRIMP. From my understanding, the model works as follows:
+To adapt the model to any stressor (running/swimming/cycling or any exercise), he proposed heart rate based metric called **TRIMP**. From my understanding, the model works as follows:
 
 1.  Convert each effort into a TRIMP score.
 
 2.  Use the sequence of past TRIMP scores to predict two values:
 
-1.  Fitness: The positive influence (due to adaptation and other phenomenon) each effort has on your future performance.
+    1.  **Fitness:** The positive influence (due to adaptation and other phenomenon) each effort  has on your future performance.
 
-2.  Fatigue: The negative effect (due to needed recovery time, muscle soreness etc) each effort has on your future performance.
+    2.  **Fatigue:** The negative effect (due to needed recovery time, muscle soreness etc) each effort has on your future performance.
 
 Fitness outlasts Fatigue
 ------------------------
