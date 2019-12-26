@@ -8,7 +8,7 @@ email: iska.kaushik@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog of Kaushik Iska
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://iska.is" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: iskakaushik
 github_username:  iskakaushik
 
@@ -20,6 +20,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
