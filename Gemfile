@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem 'jekyll-sitemap'
+gem 'jekyll-analytics'
 gem "rake"
 ruby "2.6.5"
 
