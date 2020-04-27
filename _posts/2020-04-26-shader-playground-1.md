@@ -4,6 +4,7 @@ title:  "Shader Playground"
 date:   2020-04-26 12:09:01 -0800
 image: TODO Kaushik
 categories: graphics
+discussion_id: 2020-04-26-shader-pg-1
 ---
 
 <link type="text/css" rel="stylesheet" href="/assets/css/shader_editor.css" />
