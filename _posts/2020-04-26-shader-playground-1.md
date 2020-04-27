@@ -6,96 +6,11 @@ image: TODO Kaushik
 categories: graphics
 ---
 
-
-<style>
-.canvas {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-}
-
-.codeAndCanvas {
-    height:auto;
-    min-height:250px;
-    clear:both;
-    display: block;
-    min-width: 800px;
-}
-
-.codeAndCanvas canvas {
-    float: right;
-    position: relative;
-    z-index: 1;
-}
-
-.codeAndCanvas .ge_editor {
-    background: #ECECEC;
-}
-
-.CodeMirror {
-    background: #ECECEC;
-    font-size: 14px;
-    line-height: 1.5em;
-}
-
-.simpleFunction {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-
-}
-
-.simpleFunction .CodeMirror {
-    background: #F9F9F9;
-    font-size: 14px;
-    line-height: 1.5em;
-}
-
-.simpleFunction canvas {
-    float: top;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-}
-
-.cm-s-default .cm-variable-3 {
-    color: #708;
-}
-
-.cm-s-default .cm-keyword {
-    color: #708;
-}
-
-.ge_tooltip_modal {
-    background-color: #B4B4B4;
-}
-
-.ge_tooltip_modal p {
-    color: #000000;
-}
-
-.ge_tooltip_modal a {
-    color: #FEFFFF;
-}
-
-.ge_export_modal {
-    box-shadow: none;
-}
-
-.ge_colorpicker_link-button {
-    color: #333;
-}
-</style>
-
- <!-- GlslCanvas -->
-<script type="text/javascript" src="https://thebookofshaders.com/glslCanvas/GlslCanvas.js"></script>
+<link type="text/css" rel="stylesheet" href="/assets/css/shader_editor.css" />
 
 <!-- GlslEditor -->
-<link type="text/css" rel="stylesheet" href="https://thebookofshaders.com/glslEditor/glslEditor.css">
-<script type="application/javascript" src="https://thebookofshaders.com/glslEditor/glslEditor.js"></script>
+<link type="text/css" rel="stylesheet" href="/assets/third_party/glslEditor/glslEditor.css">
+<script type="application/javascript" src="/assets/third_party/glslEditor/glslEditor.js"></script>
 
 
 I started reading [The Book of Shaders](https://thebookofshaders.com/) -- which I'm thoroughly enjoying. One of the exercises in the book was to replicate the sunset from William Turner - The Fighting Temeraire. Over time, I started to really appreciate the image and the colors in it.
@@ -124,6 +39,20 @@ If you notice the original image, you will see that Sun isn't in the bottom righ
 The next thing that caught my eye wat the sky in between the Sun and the water. It looked like it was being squeezed between the two. This reminded my of a hyperbola. After playing around with some hyperbolic parameters. I was able to find something that resembled the blue.
 
 <div id="sky_hyperbola" class="codeAndCanvas"></div>
+
+
+## Two suns and a river
+
+The next experiment I decided to try was to blend in two radial graidents. One for the sun on the top and the other for the reflection below. Blending these in with the river (modeled as a hyperbola) was the effect that I wanted to achieve.
+
+<div id="two_suns_and_a_river" class="codeAndCanvas"></div>
+
+
+## Conclusion
+
+There are definitely extensions to this that would get the resulting render closer to the image, but at this point I felt like I'll be fine tuning my techniques to get the result closer but not learning as fast as I'd like in the process. I decided to pause this expermient for a bit and continue my exploration.
+
+Towards the end I was satisfied with the effect that the shader resulted in. I enjoyed reading up on coordinate geometry, and also enjoyed staring at Turner's image for a while. I plan on continuing my experiments with shaders.
 
 <script type="text/javascript">
     function createEditableShader(shaderName) {
