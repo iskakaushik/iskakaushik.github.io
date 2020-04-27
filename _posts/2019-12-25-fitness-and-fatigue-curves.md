@@ -4,6 +4,7 @@ title:  "Fitness and Fatigue Curves"
 date:   2019-12-25 11:03:01 -0800
 image: https://iska.is/assets/img/strava_stats.png
 categories: graphics
+discussion_id: 2019-12-25-fitness-and-fatigue
 ---
 
 <script type="text/x-mathjax-config">
