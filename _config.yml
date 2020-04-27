@@ -12,6 +12,8 @@ url: "https://iska.is" # the base hostname & protocol for your site, e.g. http:/
 twitter_username: iskakaushik
 github_username:  iskakaushik
 google_analytics: UA-34595522-1
+talkyard_server_url: https://comments-for-iska-is.talkyard.net
+talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
 
 twitter:
   username: iskakaushik
