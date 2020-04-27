@@ -7,8 +7,9 @@ precision mediump float;
 
 uniform vec2 u_resolution;
 
-vec3 lightOrange=vec3(249,226,182)/255.;
-vec3 dirtyBlue=vec3(99,97,137)/255.;
+vec4 darkOrange=vec4(193,89,18,255.)/255.;
+vec4 lightOrange=vec4(249,226,182,255.)/255.;
+vec4 dirtyBlue=vec4(99,97,137,255.)/255.;
 
 const float a=.15;
 const float b=.05;
@@ -30,7 +31,8 @@ void main(){
     
     float distFromRight=sqrt(1.-st.x);
     h=(h+distFromRight)/(2.);
+    vec4 pct=vec4(vec3(h),1.);
+    vec4 hypColor=mix(dirtyBlue,lightOrange,pct);
     
-    vec3 pct=vec3(h);
-    gl_FragColor=vec4(mix(dirtyBlue,lightOrange,pct),1.);
+    gl_FragColor=hypColor;
 }

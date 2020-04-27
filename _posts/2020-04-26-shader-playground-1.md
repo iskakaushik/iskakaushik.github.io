@@ -100,11 +100,11 @@ categories: graphics
 
 I started reading [The Book of Shaders](https://thebookofshaders.com/) -- which I'm thoroughly enjoying. One of the exercises in the book was to replicate the sunset from William Turner - The Fighting Temeraire. Over time, I started to really appreciate the image and the colors in it.
 
-![](https://lh5.googleusercontent.com/crU_--hg5WVxSHMp7nNB_mm-3gfLJRiaQ5nyHRkFXPGTgzAUlrz1NVgGGy8tLiknkXvqXJFWeFdwUNNjO0rTlF52KP4D07HtWScFi6MtmuFgaNmPY787VzNJnY_2o9XrEP817EmZ)
+<img src="/assets/img/turner.jpg" />
 
 Before I got started with this, to improve my gradient foo, I decided to go explore creating simpler gradients. Thanks to [Adobe Color](https://color.adobe.com/), I was able to find some of the key colors in the image.
 
-![](https://lh5.googleusercontent.com/OuIginX4IlDMg9DqvHKPI5lnypJ-nTfALKsa1K-Mbe1dX5_mTDFV8WYgryDROCuHWUzkrWs7GvDxeekGrGUzjcnTPSUteCny9yvhUHfaVqlGQntxWhOTrNQymYp-xprVn1WXXD8l)
+<img src="/assets/img/turner-theme.png" />
 
 ## Blue to orange diagonal gradient
 
