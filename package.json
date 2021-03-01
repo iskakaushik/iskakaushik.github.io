@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "chroma-js": "^2.1.0",
-    "three": "^0.111.0",
+    "three": "^0.125.0",
     "tween.js": "^16.6.0",
     "tweenjs": "^1.0.2"
   }
